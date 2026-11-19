@@ -32,11 +32,11 @@ GREEN = (77, 124, 15)
 BASE = os.path.dirname(os.path.abspath(__file__))
 PHOTOS = os.path.join(BASE, "photos")
 
-SERIF_B = "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"
-SERIF = "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
-SERIF_I = "/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf"
-SANS_B = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
-SANS = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
+SERIF_B = os.path.join(BASE, "fonts", "LiberationSerif-Bold.ttf")
+SERIF = os.path.join(BASE, "fonts", "LiberationSerif-Regular.ttf")
+SERIF_I = os.path.join(BASE, "fonts", "LiberationSerif-Italic.ttf")
+SANS_B = os.path.join(BASE, "fonts", "LiberationSans-Bold.ttf")
+SANS = os.path.join(BASE, "fonts", "LiberationSans-Regular.ttf")
 
 
 def font(path, size):
